@@ -30,8 +30,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Special text styles */
-h1 a {
+h1 a, h2 a {
 	text-decoration:none;
+}
+
+h1.site-title a:link, h1.site-title a:hover, h1.site-title a:visited {
+	color: #000;
 }
 
 p.front-blurb {
