@@ -10,6 +10,8 @@ body {
 }
 
 #page,#post {
+	background-image: url('https://vasugi.files.wordpress.com/2015/01/clouds2.jpg');
+	background-repeat: no-repeat;
 	background-color: $page-color;
 }
 
@@ -27,23 +29,43 @@ h1, h2, h3, h4, h5, h6 {
 	display: none;
 }
 
+/* Special text styles */
+h1 a {
+	text-decoration:none;
+}
+
+p.front-blurb {
+	  color: #333;
+	font-family: $serif;
+	font-size: 18px;
+	font-style: italic;
+	padding: 20px;
+
+
+.blurbcap {
+  text-align: right;
+
+	font-family: $sans;
+	font-size: 12px;
+	margin-left: 10px;
+}
+}
 
 /* Front page sidebar adjustments */
 .template-front-page .widget-area .widget {
 	text-align: center;
 	width: 100%;
-		.widget_text img {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			float: none;
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
 	}
-}
-
-.template-front-page .widget-area .widget .smalltext {
-	display: block;
-	width: 100%;
-	clear: both;
+	.smalltext {
+		display: block;
+		width: 100%;
+		clear: both;
+	}
 }
 
 /* Media queries */
